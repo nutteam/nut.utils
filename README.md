@@ -1,5 +1,6 @@
 # 工具库
 - ABTest
+- Affix
 
 ## ABTest
 使用示例：
@@ -19,3 +20,7 @@ ABTest('you abtest name')
 // start the A/B test
 .start();
 ```
+
+## Affix
+polyfill for [position:sticky](http://caniuse.com/#feat=css-sticky)
+使用：直接引用affix.js
